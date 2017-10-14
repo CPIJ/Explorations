@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Speakit",
+    "version": "1.0",
+    "description": "Speakit",
+
+    "icons": {
+        "128": "assets/icons/128.png",
+        "48": "assets/icons/48.png",
+        "16": "assets/icons/16.png"
+    },
+
+    "background": {
+        "scripts": ["public/js/event-page.js"],
+        "persistent": false
+    },
+
+    "permissions": [
+        "tts",
+        "contextMenus"
+    ]
+}
